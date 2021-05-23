@@ -41,7 +41,7 @@ class scene1 extends Phaser.Scene{
         .on("pointerdown",() => this.reiniciar()); 
     }
     reiniciar(){
-        this.scene.start("scene2")
+        this.scene.start("scene5")
         gameOver = false 
     }
 }

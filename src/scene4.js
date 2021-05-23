@@ -9,6 +9,8 @@ class scene4 extends Phaser.Scene{
         this.add.image(400, 300, "Ganaste")
         this.add.text(250, 250, "Combustible encontrado: " + score)
         this.add.text(250, 200, "Piezas de nave encontradas: " + score2)
+
+        
         var restartButton = this.add.text(250, 500, "Reiniciar Nivel",{fontSize:30})
         .setInteractive()
         .on("pointerdown",() => this.reiniciar());
